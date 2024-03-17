@@ -1,0 +1,12 @@
+{
+  "name": "@knuseski/c-pay",
+  "version": "1.0.0",
+  "description": "C-Pay integration",
+  "type": "module",
+  "main": "app/CPay.js",
+  "author": "Kristijan Nusheski",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.2.0"
+  }
+}
