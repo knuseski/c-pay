@@ -1,12 +1,35 @@
 {
   "name": "@knuseski/c-pay",
-  "version": "1.0.0",
-  "description": "C-Pay integration",
+  "version": "1.0.2",
+  "description": "CPay is a JavaScript class that facilitates creating payments for merchants using the CPay service.",
   "type": "module",
   "main": "app/CPay.js",
   "author": "Kristijan Nusheski",
-  "license": "ISC",
+  "license": "MIT",
+  "keywords": [
+    "CPay",
+    "payment processing",
+    "CPay service",
+    "merchant payments",
+    "payment integration",
+    "checksum generation",
+    "payment request form",
+    "data integrity",
+    "CPay API",
+    "JavaScript",
+    "library",
+    "npm",
+    "module"
+  ],
   "dependencies": {
     "crypto-js": "^4.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/knuseski/c-pay"
+  },
+  "bugs": {
+    "url": "https://github.com/knuseski/c-pay/issues"
+  },
+  "homepage": "https://github.com/knuseski/c-pay"
 }
