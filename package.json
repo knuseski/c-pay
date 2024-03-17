@@ -1,6 +1,6 @@
 {
   "name": "@knuseski/c-pay",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CPay is a JavaScript class that facilitates creating payments for merchants using the CPay service.",
   "type": "module",
   "main": "app/CPay.js",

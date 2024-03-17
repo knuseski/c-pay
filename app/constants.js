@@ -10,17 +10,22 @@ export const MERCHANT_NAME_FIELD = 'MerchantName';
 export const AMOUNT_CURRENCY_FIELD = 'AmountCurrency';
 export const PAYMENT_OK_URL_FIELD = 'PaymentOKURL';
 export const PAYMENT_FAIL_URL_FIELD = 'PaymentFailURL';
-export const CHECKSUM_FIELD = 'CheckSum';
-export const CHECKSUM_HEADER_FIELD = 'CheckSumHeader';
 
-
-const ORIGINAL_AMOUNT_FIELD = 'OriginalAmount';
-const ORIGINAL_CURRENCY_FIELD = 'OriginalCurrency';
 const AMOUNT_TO_PAY_FIELD = 'AmountToPay';
 const DETAILS_1_FIELD = 'Details1';
 const DETAILS_2_FIELD = 'Details2';
+const ORIGINAL_AMOUNT_FIELD = 'OriginalAmount';
+const ORIGINAL_CURRENCY_FIELD = 'OriginalCurrency';
+
+export const CHECKSUM_FIELD = 'CheckSum';
+export const CHECKSUM_HEADER_FIELD = 'CheckSumHeader';
 
 export const MANDATORY_FIELDS = [
+  PAY_TO_MERCHANT_FIELD,
+  MERCHANT_NAME_FIELD,
+  AMOUNT_CURRENCY_FIELD,
+  PAYMENT_OK_URL_FIELD,
+  PAYMENT_FAIL_URL_FIELD,
   AMOUNT_TO_PAY_FIELD,
   DETAILS_1_FIELD,
   DETAILS_2_FIELD,
